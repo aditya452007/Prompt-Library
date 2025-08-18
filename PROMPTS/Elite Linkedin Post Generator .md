@@ -1,7 +1,4 @@
-> [!LINKEDIN PROFILE]
-<div style="border: 1px solid black; padding: 10px;">
-  <a href="https://www.linkedin.com/in/aaditya-thakur-1a8842332/">LinkedIn</a>
-</div>
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-blue?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/aaditya-thakur-1a8842332/)
 
 ```
 
