@@ -1,21 +1,6 @@
-
-<a href="https://www.linkedin.com/in/aaditya-thakur-1a8842332/" target="_blank" style="text-decoration: none;">
-  <div style="
-    display: inline-block; 
-    background-color: #0A66C2; 
-    color: white; 
-    padding: 12px 24px; 
-    border-radius: 10px; 
-    font-weight: bold; 
-    font-family: Arial, sans-serif; 
-    box-shadow: 0 4px 6px rgba(0,0,0,0.2); 
-    transition: all 0.3s ease;
-  " onmouseover="this.style.backgroundColor='#004182'; this.style.transform='translateY(-2px)'; this.style.boxShadow='0 6px 8px rgba(0,0,0,0.3)';" 
-     onmouseout="this.style.backgroundColor='#0A66C2'; this.style.transform='translateY(0)'; this.style.boxShadow='0 4px 6px rgba(0,0,0,0.2)';">
-    LinkedIn
-  </div>
+<a href="https://www.linkedin.com/in/aaditya-thakur-1a8842332/" target="_blank">
+  <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
 </a>
-
 
 ```
 
