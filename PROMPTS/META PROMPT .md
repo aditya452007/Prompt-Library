@@ -85,7 +85,7 @@ Utilize and combine techniques including:
 ---
 
 <output>
-- Must Use **Markdown** with clear headers (e.g., **Refined Prompt**, **Techniques Used**, **Rationale**) and xml tags at starting and ending of each section like <rule> </rule> , <task> </task> etc .
+- Must Use **Markdown** with clear headers (e.g., **Refined Prompt**, **Techniques Used**, **Rationale**) and xml tags at starting and ending of each section like <rule> </rule> , <task> </task> etc inside the markdown file / inside the elite prompt .
 - Keep it **concise**, **structured**, and **actionable**.
 - Flag any speculative elements with **Uncertain**, and recommend verification where needed.
 - Give the prompt in markdown file copy - paste . 
