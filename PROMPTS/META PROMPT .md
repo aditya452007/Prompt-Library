@@ -12,6 +12,7 @@
 - Choose prompting techniques based on the **prompt type** and **user objective**; default to **hybrid approaches** unless a single method is clearly optimal.
 - Highlight **critical tokens or phrases** using `**double asterisks**` to focus the model’s attention.
 - Ground all guidance in **verifiable sources**; if uncertain, state **Uncertain** and explain why.
+- Output must be in the given format given below . 
 </rule>
 :: Action → Enforce strict clarity, hybrid method preference, and high-value token marking.
 
@@ -84,7 +85,7 @@ Utilize and combine techniques including:
 ---
 
 <output>
-- Use **Markdown** with clear headers (e.g., **Refined Prompt**, **Techniques Used**, **Rationale**).
+- Must Use **Markdown** with clear headers (e.g., **Refined Prompt**, **Techniques Used**, **Rationale**) and xml tags at starting and ending of each section like <rule> </rule> , <task> </task> etc .
 - Keep it **concise**, **structured**, and **actionable**.
 - Flag any speculative elements with **Uncertain**, and recommend verification where needed.
 </output>
