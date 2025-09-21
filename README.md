@@ -1,6 +1,6 @@
 ## Prompt-Library
 
----
+
 
 # 📂 Prompt Collection
 
@@ -31,6 +31,7 @@ Each entry includes the **prompt name**, a **short description**, and a **direct
 
 
 ---
+
 ```
 
 | Weak / Vague Term | Elite Upgrade Directive                                                                |
@@ -48,3 +49,140 @@ Each entry includes the **prompt name**, a **short description**, and a **direct
 
 
 ```
+
+---
+
+
+# 🔍 Smart Search & Prompt Control Options  
+
+Use these parameters to fine-tune how search results and AI responses are retrieved, filtered, and presented.  
+
+---
+
+<details>
+<summary>📌 Core Query Options</summary>
+
+| **Option**       | **Description**                                  | **Example Usage**                         |
+|------------------|--------------------------------------------------|-------------------------------------------|
+| 🔎 `query`       | Main search term or topic                        | `query="latest cybersecurity trends"`      |
+| 🕒 `recency_days`| Show results only from the past N days            | `recency_days=30`                          |
+| ⏳ `time_range`  | Specify an exact time window                     | `time_range="2023-01-01 to 2023-12-31"`    |
+| ➕ `include_keywords` | Prioritize results containing certain keywords | `include_keywords=["APT", "phishing"]`     |
+| ➖ `exclude_keywords` | Exclude results containing specific keywords   | `exclude_keywords=["advertisement"]`       |
+
+</details>
+
+---
+
+<details>
+<summary>🏛 Source & Document Controls</summary>
+
+| **Option**            | **Description**                                              | **Example Usage**                             |
+|------------------------|--------------------------------------------------------------|-----------------------------------------------|
+| 📚 `source_priority`   | Prefer specific sources for higher reliability               | `source_priority=["MITRE", "NIST", "OWASP"]`  |
+| ✍️ `author`            | Restrict results to works from a specific expert/author      | `author="Bruce Schneier"`                     |
+| 📄 `document_type`     | Specify type of document (report, guide, white paper, etc.)   | `document_type="white paper"`                 |
+| 🎓 `peer_reviewed`     | Show only peer-reviewed sources (academic rigor)             | `peer_reviewed=True`                          |
+| ⭐ `min_cite_score`    | Filter for research with a minimum citation score             | `min_cite_score=50`                           |
+
+</details>
+
+---
+
+<details>
+<summary>🧠 Content Type & Depth</summary>
+
+| **Option**            | **Description**                                         | **Example Usage**                     |
+|------------------------|---------------------------------------------------------|---------------------------------------|
+| 📰 `result_type`       | Content type (guide, tutorial, paper, news, etc.)       | `result_type="tutorial"`              |
+| 📊 `technical_depth`   | Detail level (`beginner`, `intermediate`, `advanced`)   | `technical_depth="advanced"`          |
+| 🌍 `region`            | Focus results on a specific geographical region         | `region="EU"`                         |
+| 🗺 `geospatial_filter`  | Filter by location context (e.g., attacks from region)  | `geospatial_filter="North America"`   |
+| 🏦 `industry_focus`    | Narrow results to a specific industry                   | `industry_focus="finance"`            |
+
+</details>
+
+---
+
+<details>
+<summary>💬 Perspective & Sentiment</summary>
+
+| **Option**               | **Description**                                  | **Example Usage**                         |
+|---------------------------|--------------------------------------------------|-------------------------------------------|
+| 🙂 `sentiment`            | Filter results by sentiment (positive, negative) | `sentiment="positive"`                    |
+| ⚖️ `contrasting_opinions` | Include multiple viewpoints for balance          | `contrasting_opinions=True`               |
+
+</details>
+
+---
+
+<details>
+<summary>📑 Result Presentation</summary>
+
+| **Option**             | **Description**                                     | **Example Usage**                      |
+|-------------------------|-----------------------------------------------------|----------------------------------------|
+| 📝 `summarize_results`  | Summarize key points from each result               | `summarize_results=True`                |
+| 🔍 `include_snippets`   | Show short snippets for quick preview               | `include_snippets=True`                 |
+| 🏷 `show_metadata`      | Display metadata (date, author, source type)        | `show_metadata=True`                    |
+| ✨ `highlight_keywords` | Highlight specified keywords inside results         | `highlight_keywords=["malware"]`        |
+| 📂 `group_by`           | Group results by category (vuln type, threat actor) | `group_by="vulnerability_type"`         |
+| 📦 `cluster_by`         | Organize results by source, publication, or other   | `cluster_by="source"`                   |
+| 🔗 `cross_reference_sources` | Find results that cite specific sources/authors | `cross_reference_sources=["SANS"]`      |
+| 📈 `rank_by`            | Rank results by `relevance`, `popularity`, `date`  | `rank_by="popularity"`                  |
+| 🎯 `min_relevancy_score`| Show only results above a relevancy threshold       | `min_relevancy_score=80`                |
+
+</details>
+
+---
+
+<details>
+<summary>⚡ Performance & Automation</summary>
+
+| **Option**        | **Description**                                   | **Example Usage**             |
+|--------------------|---------------------------------------------------|--------------------------------|
+| 🔢 `max_results`   | Limit number of results for speed                 | `max_results=10`              |
+| ⚡ `fast_mode`     | Prioritize speed over detail                      | `fast_mode=True`              |
+| 🔄 `recurrence`    | Schedule recurring searches (`daily`, `weekly`)   | `recurrence="weekly"`         |
+| 🔔 `notify_on_update` | Get notified when new content appears          | `notify_on_update=True`       |
+| 💾 `auto_save`     | Automatically save results for later              | `auto_save=True`              |
+
+</details>
+
+---
+
+<details>
+<summary>🌐 Language & Export</summary>
+
+| **Option**         | **Description**                                 | **Example Usage**                  |
+|---------------------|-------------------------------------------------|------------------------------------|
+| 🌍 `translate_to`   | Translate results to chosen language            | `translate_to="English"`           |
+| 📊 `visualize_data` | Generate charts/graphs (`trend_chart`, timeline)| `visualize_data="trend_chart"`     |
+| 📤 `export_format`  | Export results to `CSV`, `PDF`, Markdown, etc.  | `export_format="CSV"`              |
+| 🖱 `interactive_mode` | Enable interactive UI (links, expandables)    | `interactive_mode=True`            |
+
+</details>
+
+---
+
+<details>
+<summary>✨ Extra Prompt-Oriented Controls</summary>
+
+These help the AI better **understand intent** and **tailor responses**.  
+
+| **Option**          | **Description**                                     | **Example Usage**                           |
+|----------------------|-----------------------------------------------------|---------------------------------------------|
+| 🎭 `tone`            | Adjust tone (`formal`, `casual`, `analytical`)      | `tone="analytical"`                         |
+| 👤 `role_context`    | Set AI’s role/persona (`teacher`, `mentor`, etc.)   | `role_context="mentor"`                     |
+| 📚 `answer_depth`    | Level of detail (`brief`, `detailed`, `comprehensive`)| `answer_depth="comprehensive"`             |
+| ⚖️ `compare_with`   | Ask AI to contrast two ideas/sources                | `compare_with="Zero Trust vs Perimeter Sec"`|
+| 💡 `example_focus`   | Request real-world examples or case studies         | `example_focus="case studies"`              |
+| 🔮 `future_outlook`  | Add predictions or forward-looking insights         | `future_outlook=True`                       |
+| 🛡 `bias_check`      | Ask AI to self-check for bias or missing views      | `bias_check=True`                           |
+| 🧩 `step_by_step`    | Force structured, logical reasoning                 | `step_by_step=True`                         |
+| 📏 `confidence_level`| Ask AI to rate its confidence in answers            | `confidence_level=True`                     |
+
+</details>
+
+---
+
+
