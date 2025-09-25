@@ -52,6 +52,37 @@ Each entry includes the **prompt name**, a **short description**, and a **direct
 
 ---
 
+## ⚙️ Response Verbosity Levels
+
+You can control how detailed the system’s responses are by setting a **verbosity level (1–10)**.  
+This allows fine-grained control, from minimal bullet-points to deep technical breakdowns.  
+
+### Verbosity Scale
+
+| Level | Category | Description | Example Use Case |
+|-------|----------|-------------|------------------|
+| **1** | 🔹 Low    | Ultra-concise. One-liners, no fluff. | Quick facts, short answers. |
+| **2** | 🔹 Low    | Concise + 1 supporting detail. | Yes/No with reasoning. |
+| **3** | 🔹 Low    | Short bullets, minimal context. | Simple instructions. |
+| **4** | 🔸 Medium | Balanced, structured but brief. | General Q&A. |
+| **5** | 🔸 Medium | Default mode: clear + structured. | Everyday explanations. |
+| **6** | 🔸 Medium | Moderate depth, some edge cases. | Tutorials, how-to guides. |
+| **7** | 🔺 High   | Detailed, with examples + steps. | Technical answers. |
+| **8** | 🔺 High   | Deep dive with comparisons, tradeoffs. | Engineering docs. |
+| **9** | 🔺 High   | Exhaustive: covers edge cases, future implications. | Research, analysis. |
+| **10**| 🚀 Max    | Ultra-verbose: full breakdowns, references, citations. | Whitepapers, audits. |
+
+### Usage
+
+- **Verbosity 1–3 (Low):** Minimal detail, fast consumption.  
+- **Verbosity 4–6 (Medium):** Balanced and practical (✅ default).  
+- **Verbosity 7–10 (High):** Comprehensive, technical, reference-rich.  
+
+> 🔧 **Tip:** Adjust verbosity depending on whether you want a *summary*, a *tutorial*, or a *research-grade answer*.  
+
+
+---
+
 
 # 🔍 Smart Search & Prompt Control Options  
 
