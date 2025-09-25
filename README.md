@@ -27,8 +27,20 @@ Each entry includes the **prompt name**, a **short description**, and a **direct
 
 ✨ Tip: Click **Open ↗** in the last column to view the full prompt.  
 
+---
 
+```
+Namespace: {{domain}}
+Target channel: commentary
+Verbosity: 10 (HIGH)
 
+Description
+Use this tool to generate {{domain}} output for the user.
+The output must be detailed, structured, and production-ready.
+Always provide maximum explanation (verbosity = 10) unless the user explicitly asks for less detail.
+Follow best practices and adapt style/formatting to the domain context.
+Avoid placeholders unless explicitly required.
+```
 
 ---
 
